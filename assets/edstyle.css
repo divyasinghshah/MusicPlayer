@@ -1,0 +1,162 @@
+body{
+	background-color:black !important;
+	font-family: 'Spectral', serif;
+
+
+}
+
+.container{
+
+	width: 80%;
+	height:auto;
+	
+	margin: 0 auto;
+}
+
+main{
+	width: 70%;
+	display: inline-block;
+}
+
+#about{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20vh;
+	align-items: center;
+	background-color: #0a0935e6;
+
+}
+
+#about-image{
+	width: 40%;
+	height: 40%;
+}
+
+#about-image img{
+	width: 100%;
+	height: 100%;
+
+}
+#content{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	height:auto;
+	padding:30px;
+	
+}
+
+#content span{
+	float: right;
+}
+#content button{
+	background-color: transparent;
+	border: 1px solid white;
+	margin-bottom: 8px;
+	color: white;
+	padding: 8px;
+	width: 200px;
+	margin-top:30px;
+}
+
+#playlist-artist{
+
+	width: 100%;
+	height: auto;
+}
+.songs{
+
+	background-color: #19184be6;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: relative;
+	margin: 10px 0;
+}
+
+.songs>div{
+	display: inline-block;
+}
+.songs>div:nth-child(1){
+	padding: 10px;
+}
+.songs>div:nth-child(2){
+	height: 50px;
+	width: 50px;
+	margin: 10px 20px;
+}
+
+.songs img{
+	height: 100%;
+	width: 100%;
+}
+.songs>div:nth-child(4)  {
+	position: absolute;
+	right: 60px;
+} 
+
+.songs>div:nth-child(5)  {
+	position: absolute;
+	right: 30px;
+} 
+
+
+/*aside*/
+
+aside{
+	border: 1px solid black;
+	width: 30%;
+	display: inline-block;
+	margin-top: 9vh;
+	margin-left: 20px;
+}
+
+.similar-artist-header{
+	
+}
+
+.list{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	position: relative;
+	margin: 10px 0px;
+	
+}
+.list>div{
+	display: inline-block;
+}
+
+.list>div:first-child{
+	height: 100px;
+	width: 100px;
+}
+
+.list>div:nth-child(2){
+	margin-left: 1rem;
+}
+.list>div:nth-child(3){
+	position: absolute;
+	right: 9px;
+}
+.list>div img{
+	height: 100%;
+	width: 100%;
+}
+.list div a{
+	position: absolute;
+	top: 40px;
+	z-index: 2;
+	left: 40px;
+	opacity: 0;
+}
+.list:hover .p{
+	opacity: 1;
+}
+
+
+
+
+
